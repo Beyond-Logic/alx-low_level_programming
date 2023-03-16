@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	printf("Hello Software Engineering");
 	return (0);
 }
