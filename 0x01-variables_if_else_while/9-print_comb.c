@@ -13,8 +13,13 @@ int main(void)
 	for (z = 0; z <= 9; z++)
 	{
 		putchar(z + '0');
-		putchar(',');
-		putchar(' ');
+
+		if (z <= 8)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+
 	}
 	putchar('\n');
 
