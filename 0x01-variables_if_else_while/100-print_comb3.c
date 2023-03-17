@@ -12,16 +12,20 @@ int main(void)
 
 	for (i = 1; i <= 89; i++)
 	{
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-
-		if (i <= 88)
+		if (i / 10 < i % 10)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+
+			if (i < 89)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-	putchar ('\n');
+
+	putchar('\n');
 
 	return (0);
 
