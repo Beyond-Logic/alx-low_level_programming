@@ -9,16 +9,12 @@
 
 int is_lower(int c)
 {
-
-	for (c = 97; c <= 122; c++)
+	if (c > 96 && c <= 122)
 	{
-		if (c > 96 && c <= 122)
-		{
-			return (0);
-		}
-		else
-		{
-			return (0);
-		}
+		return (0);
+	}
+	else
+	{
+		return (0);
 	}
 }
