@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	char c[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
+	char c[] = "_putchar\n";
 
 	int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(c[i]);
 	}
