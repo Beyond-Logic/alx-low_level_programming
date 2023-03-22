@@ -8,7 +8,7 @@
  * Return: the value of the last digit
  */
 
-int print_last_digit(int num)
+int print_last_digit(int)
 {
 
 	return (88);
