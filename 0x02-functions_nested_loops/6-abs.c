@@ -3,13 +3,13 @@
 
 /**
  * _abs - absolute value of an integer
- * @int: the int to be checked
+ * @n: the int to be checked
  *
  * Return: absolute value of an integer
  */
 
 
-int _abs(int)
+int _abs(int n)
 {
 	return (abs(int));
 }
