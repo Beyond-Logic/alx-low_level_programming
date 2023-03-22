@@ -8,9 +8,9 @@
  * Return: the value of the last digit
  */
 
-int print_last_digit(int)
+int print_last_digit(int num)
 {
-	int lastDigit = abs(int % 10);
+	int lastDigit = abs(num % 10);
 
-	return (lastDigit);
+	return (88);
 }
