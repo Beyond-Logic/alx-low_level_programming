@@ -12,5 +12,5 @@ int print_last_digit(int num)
 {
 	int lastDigit = abs(num % 10);
 
-	return (lastDigit * 11);
+	return (lastDigit);
 }
