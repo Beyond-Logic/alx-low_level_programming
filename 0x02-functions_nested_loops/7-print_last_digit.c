@@ -10,11 +10,5 @@
 
 int print_last_digit(int n)
 {
-	int i;
-
-	for (i = 1; i <= 2; i++)
-	{
-		return (abs(n) % 10);
-	}
-	return (0);
+	return ((abs(n) % 10));
 }
