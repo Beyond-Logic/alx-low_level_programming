@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * fizz_buzz - FizzBuzz or number
+ * main - FizzBuzz or number
  * Return: FizzBuzz
  */
 
-void fizz_buzz(void)
+void main(void)
 {
 	int i;
 
