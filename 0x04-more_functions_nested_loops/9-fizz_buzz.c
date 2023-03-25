@@ -37,6 +37,5 @@ void fizz_buzz(void)
 
 	printf("\n");
 
-	return (0);
 
 }
