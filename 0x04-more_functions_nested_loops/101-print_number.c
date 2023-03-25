@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_number -  print an integer #
@@ -15,24 +14,11 @@ void print_number(int n)
 		n = -n;
 	}
 
-	int temp = n;
-
-	int num_digits = 0;
-
-	do {
-		temp /= 10;
-		num_digits++;
-	}
-	while
+	if (n / 10)
 	{
-		(temp != 0);
+		print_number(n / 10);
 	}
 
-	for (int i = num_digits - 1; i >= 0; i--)
-	{
-		int digit = (n / (int)pow(10, i)) % 10;
-
-		_putchar(digit + '0');
-	}
+	_putchar((n % 10) + '0');
 
 }
