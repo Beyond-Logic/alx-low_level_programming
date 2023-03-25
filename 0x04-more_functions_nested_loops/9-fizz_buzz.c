@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * fizz_buzz - FizzBuzz or number
  * Return: FizzBuzz
  */
 
-int main(void)
+int fizz_buzz(void)
 {
 	int i;
 
