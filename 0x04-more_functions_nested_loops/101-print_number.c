@@ -7,10 +7,7 @@
 
 void print_number(int n)
 {
-	int i, j;
 
-	j = _putchar(i);
-
-	return (j);
+	return (_putchar(n));
 
 }
