@@ -15,10 +15,9 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		_putchar('\n');
-
 		for (i = 0; i < n; i++)
 		{
+			_putchar('\n');
 			_putchar('_');
 		}
 
