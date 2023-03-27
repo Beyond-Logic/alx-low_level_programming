@@ -19,11 +19,11 @@ void rev_string(char *s)
 
 	int k = i - 1;
 
-	while (i > k)
+	while (j < k)
 	{
 		char temp = s[j];
 
-		s[j] = str[k];
+		s[j] = s[k];
 		s[k] = temp;
 
 		j++;
