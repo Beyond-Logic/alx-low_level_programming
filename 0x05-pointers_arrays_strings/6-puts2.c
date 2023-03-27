@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _puts2 - Print every other string
+ * puts2 - Print every other string
  * @str: str
  */
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
