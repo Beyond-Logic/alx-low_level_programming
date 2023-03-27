@@ -30,7 +30,7 @@ int _atoi(char *s)
 			break;
 		}
 
-		s++
+		s++;
 	}
 
 	return (answer * sign);
