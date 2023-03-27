@@ -14,40 +14,17 @@ int _atoi(char *s)
 
 	int digit_found = 0;
 
-	while (s[i] == ' ')
-	{
-		i++;
-	}
-	if (s[i] == '-')
-	{
-		sign = -1;
-		i++;
-	}
-	else if (s[i] == '+')
-	{
-		i++;
-	}
 
-	while (s[i] != '\0')
+	while (*s[i] != '\0')
 	{
+		if (s[i] == '-')
+		{
+			sign = -sign;
+		}
 		if ((s[i] >= '0') && (s[i] <= '9'))
 		{
 			digit_found = 1;
-			int digit = s[i] - '0';
-
-			if (answer > INT_MAX / 10 || (answer == INT_MAX / 10 && digit > INT_MAX % 10))
-			{
-				if (sign == -1)
-				{
-					return (INT_MIN);
-				}
-				else
-				{
-					return (INT_MAX);
-				}
-			}
-
-			answer = answer * 10 + digit;
+			answer = answer * 10 + (s[i] - '0');
 		}
 		else
 		{
@@ -61,4 +38,3 @@ int _atoi(char *s)
 	}
 
 	return (answer * sign);
-}
