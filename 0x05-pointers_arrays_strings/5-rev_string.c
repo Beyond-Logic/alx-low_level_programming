@@ -7,10 +7,6 @@
 
 void rev_string(char *s)
 {
-	if (s == NULL)
-	{
-		return;
-	}
 
 	int i = 0;
 
