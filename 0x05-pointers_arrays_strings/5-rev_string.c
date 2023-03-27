@@ -8,6 +8,11 @@
 void rev_string(char *s)
 {
 
+	if (s == NULL)
+	{
+		return;
+
+	}
 	int len = 0;
 
 	int j = 0;
