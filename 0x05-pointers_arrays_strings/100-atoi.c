@@ -38,3 +38,4 @@ int _atoi(char *s)
 	}
 
 	return (answer * sign);
+}
