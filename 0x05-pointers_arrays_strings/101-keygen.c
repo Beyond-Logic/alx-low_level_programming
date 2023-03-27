@@ -19,15 +19,17 @@ int main(void)
 
 	srand(time(NULL));
 
-	for (i = 0; i < password_length; i++)
-	{
-		int random_index = rand() % (int) (sizeof(valid_chars) - 1);
+	do {
+		for (i = 0; i < password_length; i++)
+		{
+			int random_index = rand() % (int) (sizeof(valid_chars) - 1);
 
-		password[i] = valid_chars[random_index];
+			password[i] = valid_chars[random_index];
 
-	}
+		}
 
-	password[password_length] = '\0';
+		password[password_length] = '\0';
+	} while (strcmp(password, "Tada! Congrats") != 0);
 
 	printf("%s", password);
 
