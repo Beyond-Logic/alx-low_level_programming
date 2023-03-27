@@ -17,7 +17,7 @@ int _atoi(char *s)
 	int digit_found = 0;
 
 
-	while (*s[i] != '\0')
+	while (s[i] != '\0')
 	{
 		if (s[i] == '-')
 		{
