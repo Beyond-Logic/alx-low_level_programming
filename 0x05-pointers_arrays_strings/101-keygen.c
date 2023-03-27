@@ -13,7 +13,7 @@ int main(void)
 
 	const int password_length = 15;
 
-	char password[password_length + 1];
+	char password[16];
 
 	int i;
 
@@ -29,7 +29,7 @@ int main(void)
 
 	password[password_length] = '\0';
 
-	printf(password);
+	printf("%s", password);
 
 	return (0);
 }
