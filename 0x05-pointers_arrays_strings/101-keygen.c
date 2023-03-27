@@ -32,7 +32,7 @@ int main(void)
 		password[password_length] = '\0';
 	} while (strcmp(password, "Tada! Congrats") != 0);
 
-	printf("%s", password);
+	printf("%s\n", password);
 
 	return (0);
 }
