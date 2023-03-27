@@ -14,26 +14,19 @@ int _atoi(char *s)
 
 	int i = 0;
 
-	int digit_found = 0;
-
-
-	while (s[i] != '\0')
+	while (s[i])
 	{
 		if (s[i] == '-')
 		{
-			sign = -sign;
+			sign = -1;
 		}
-		if ((s[i] >= '0') && (s[i] <= '9'))
+		else if ((s[i] >= '0') && (s[i] <= '9'))
 		{
-			digit_found = 1;
 			answer = answer * 10 + (s[i] - '0');
 		}
-		else
+		else if (answer > 0)
 		{
-			if (digit_found)
-			{
-				break;
-			}
+			break;
 		}
 
 		i++;
