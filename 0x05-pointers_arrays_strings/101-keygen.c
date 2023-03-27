@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <string.h>
 
 /**
  * main - Password Generator
@@ -14,25 +13,23 @@ int main(void)
 
 	const int password_length = 15;
 
-	char password[16];
+	char password[password_length + 1];
 
 	int i;
 
 	srand(time(NULL));
 
-	do {
-		for (i = 0; i < password_length; i++)
-		{
-			int random_index = rand() % (int) (sizeof(valid_chars) - 1);
+	for (i = 0; i < password_length; i++)
+	{
+		int random_index = rand() % (int) (sizeof(valid_chars) - 1);
 
-			password[i] = valid_chars[random_index];
+		password[i] = valid_chars[random_index];
 
-		}
+	}
 
-		password[password_length] = '\0';
-	} while (strcmp(password, "Tada! Congrats") != 0);
+	password[password_length] = '\0';
 
-	printf("%s\n", password);
+	printf(password);
 
 	return (0);
 }
