@@ -8,7 +8,7 @@
  * Return: return
  */
 
-char *leet(char *c);
+char *leet(char *c)
 {
 	int i;
 
