@@ -16,7 +16,7 @@ char *cap_string(char *str)
 
 	i++;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[i] != '\0')
 	{
 		if (str[i - 1] == ' ')
 		{
