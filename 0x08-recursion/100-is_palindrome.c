@@ -10,9 +10,8 @@ int is_palindrome(char *s)
 {
 	if (*s != '\0')
 	{
-		temp[] = *s;
 
-		if (*s == temp)
+		if (*s)
 		{
 			return (1);
 		}
