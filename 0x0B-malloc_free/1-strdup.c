@@ -12,7 +12,7 @@ char *_strdup(char *str)
 {
 	int *ptr;
 
-	ptr = malloc(str, sizeof(int));
+	ptr = malloc(sizeof(char));
 
 	if (ptr == NULL)
 	{
