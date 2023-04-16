@@ -40,7 +40,6 @@ int **alloc_grid(int width, int height)
 	{
 		while (w < width)
 		{
-			printf("%d %d", grid[h][w]);
 			w++;
 		}
 
