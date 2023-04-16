@@ -20,16 +20,6 @@ void free_grid(int **grid, int height)
 
 	ptr2 = malloc(sizeof(height));
 
-	if (ptr1 == NULL)
-	{
-		return (0);
-	}
-
-	if (ptr2 == NULL)
-	{
-		return (0);
-	}
-
 	while (h < height)
 	{
 		while (w < width)
