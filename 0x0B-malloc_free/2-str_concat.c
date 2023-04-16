@@ -26,5 +26,5 @@ char *str_concat(char *s1, char *s2)
 		printf(" ");
 	}
 
-	return (*s1 + *s2);
+	return (s1 + s2);
 }
