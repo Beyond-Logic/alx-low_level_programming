@@ -10,7 +10,7 @@
 
 void free_grid(int **grid, int height)
 {
-	int *ptr1, *ptr2, w, h;
+	int *ptr1, *ptr2, w, h, width;
 
 	w = 0;
 
