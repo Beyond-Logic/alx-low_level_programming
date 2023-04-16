@@ -36,6 +36,6 @@ char *create_array(unsigned int size, char c)
 			printf("\n");
 		}
 
-		printf(c[i]);
+		printf("%d", i);
 	}
 }
