@@ -38,8 +38,8 @@ void free_grid(int **grid, int height)
 			w++;
 		}
 
-		free(ptr1[w]);
-		free(ptr2[h])
+		free(ptr1);
+		free(ptr2)
 		h++;
 	}
 
