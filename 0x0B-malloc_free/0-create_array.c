@@ -21,20 +21,5 @@ char *create_array(unsigned int size, char c)
 		return (0);
 	}
 
-	i = 0;
-
-	while (i < size)
-	{
-		if (i % 10)
-		{
-			printf("\n");
-		}
-
-		if (!(i % 10) && i)
-		{
-			printf("\n");
-		}
-
-		printf(c[i]);
-	}
+	printf("\n");
 }
