@@ -14,5 +14,5 @@ void *malloc_checked(unsigned int b)
 
 	ptr = malloc(sizeof(b));
 
-	return (ptr = NULL ? 98 : ptr);
+	return (ptr);
 }
