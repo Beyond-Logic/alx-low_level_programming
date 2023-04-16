@@ -19,11 +19,5 @@ int *array_range(int min, int max)
 	{
 		return (NULL);
 	}
-
-	if (ptr == NULL)
-	{
-		return (NULL);
-	}
-
 	return (ptr);
 }
