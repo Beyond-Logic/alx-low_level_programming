@@ -14,7 +14,7 @@ char *create_array(unsigned int size, char c)
 
 	int *ptr;
 
-	ptr = (*int) malloc(c * sizeof(int));
+	ptr = malloc(c * sizeof(int));
 
 	if (ptr == NULL)
 	{
@@ -27,7 +27,7 @@ char *create_array(unsigned int size, char c)
 	{
 		if (i % 10)
 		{
-			printf("");
+			printf("\n");
 		}
 
 		if (!(i % 10) && i)
