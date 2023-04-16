@@ -1,5 +1,6 @@
 #include "main.h"
-#include "stdlib.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - Create Array
@@ -21,5 +22,20 @@ char *create_array(unsigned int size, char c)
 		return (0);
 	}
 
-	printf("\n");
+	i = 0;
+
+	while (i < size)
+	{
+		if (i % 10)
+		{
+			printf("\n");
+		}
+
+		if (!(i % 10) && i)
+		{
+			printf("\n");
+		}
+
+		printf(c[i]);
+	}
 }
