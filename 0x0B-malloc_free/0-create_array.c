@@ -38,4 +38,6 @@ char *create_array(unsigned int size, char c)
 
 		printf("%d", i);
 	}
+
+	return (0);
 }
