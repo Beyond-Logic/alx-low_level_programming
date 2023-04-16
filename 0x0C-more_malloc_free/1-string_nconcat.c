@@ -14,10 +14,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int *ptr1, *ptr2;
 
-	n = 0;
-
 	ptr1 = malloc(sizeof(*s1));
 	ptr2 = malloc(sizeof(*s2));
 
-	return (ptr1);
+	if (n >= strlen(s2) + 1)
+	{
+		return (s2);
+	}
+
+	return (s1);
 }
