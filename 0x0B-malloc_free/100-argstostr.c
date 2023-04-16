@@ -9,7 +9,7 @@
  * Return: Return
  */
 
-int char *argstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	if (ac == 0 || av == NULL)
 	{
