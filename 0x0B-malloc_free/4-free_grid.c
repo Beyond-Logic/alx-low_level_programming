@@ -34,7 +34,7 @@ void free_grid(int **grid, int height)
 	{
 		while (w < width)
 		{
-			prinf("%d ", grid[h][w]);
+			printf("%d ", grid[h][w]);
 			w++;
 		}
 
