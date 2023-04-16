@@ -16,6 +16,8 @@ void free_grid(int **grid, int height)
 
 	h = 0;
 
+	width = 0;
+
 	ptr1 = malloc(sizeof(grid));
 
 	ptr2 = malloc(sizeof(height));
