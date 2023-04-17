@@ -1,3 +1,4 @@
-#ifndef ABS
-#define ABS(x) (x * (2 * x + 1) % 2)
-#endif /* ABS */
+#ifndef ABS_H
+#include <stdlib>
+#define ABS(x) (abs(x))
+#endif /* ABS_H */
