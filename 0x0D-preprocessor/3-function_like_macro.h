@@ -1,3 +1,3 @@
-#ifndef ABS(x)
-#define ABS(x) x * x
-#endif /* ABS(X) */
+#ifndef ABS
+#define ABS(x) (x * (2 * n + 1) % 2)
+#endif /* ABS */
