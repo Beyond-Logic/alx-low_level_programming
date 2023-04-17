@@ -8,6 +8,7 @@
   * @owner: owner
   *
   * Description: Dog with name, age, and owner
+  * Return: Return
   */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
@@ -16,4 +17,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	name = "Simba";
 	age = 2;
 	owner = ' ';
+
+	return (0);
 }
