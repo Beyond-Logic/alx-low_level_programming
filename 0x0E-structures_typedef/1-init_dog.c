@@ -13,10 +13,12 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d = "my_dog";
-	name = "Simba";
-	age = 2;
-	owner = ' ';
+	d
+	{
+		name;
+		age;
+		owner
+	};
 
 	return (0);
 }
