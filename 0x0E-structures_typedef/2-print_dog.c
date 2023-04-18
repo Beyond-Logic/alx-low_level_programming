@@ -16,11 +16,6 @@ void print_dog(struct dog *d)
 		return;
 	}
 
-	if (d->age == NULL)
-	{
-		printf("(nil)");
-	}
-
 	if (d->owner == NULL)
 	{
 		printf("(nil)");
