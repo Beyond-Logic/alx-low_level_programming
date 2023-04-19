@@ -1,5 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FUNCTIONPOINTERS_H
+#define FUNCTIONPOINTERS_H
+
+#include <stddef.h>
 
 int _putchar(char c);
 
@@ -9,4 +11,4 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 
 int int_index(int *array, int size, int (*cmp)(int));
 
-#endif /* MAIN_H */
+#endif /* FUNCTIONPOINTERS_H */
