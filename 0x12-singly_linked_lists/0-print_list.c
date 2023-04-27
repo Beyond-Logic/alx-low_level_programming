@@ -4,7 +4,7 @@
 /**
   * print_list - Print List
   * @h: pointer to the head of list_t
-  * Return: number of elements in the list
+  * Return: number of elements in the list (Print List)
   */
 
 size_t print_list(const list_t *h)
