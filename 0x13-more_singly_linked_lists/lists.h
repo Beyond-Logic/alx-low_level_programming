@@ -3,19 +3,17 @@
 #include <stdlib.h>
 
 /**
-  * struct list_s - singly linked list
-  * @str: string
-  * @len: length of the string
-  * @next: points to the next node
+  * struct listint_s - singly linked list
+  * @n: n
+  * @next: next
   *
   * Description: singly linked list node structure
   */
 
-typedef struct list_s
+typedef struct listint_s
 {
-	char *str;
-	unsigned long int len;
-	struct list_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 size_t print_listint(const listint_t *h);
