@@ -3,7 +3,7 @@
 
 /**
   * print_listint - Print List
-  * @h: pointer to the head of list_t
+  * @h: pointer to the head of listint_t
   * Return: number of elements in the list (Print List)
   */
 
