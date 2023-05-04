@@ -15,7 +15,7 @@ void print_binary(unsigned long int n)
 	{
 		bit = (n & m) ? 1 : 0;
 		_putchar(bit + '0');
-		_putchar('\n');
 		m >>= 1;
 	}
+	_putchar('\n');
 }
