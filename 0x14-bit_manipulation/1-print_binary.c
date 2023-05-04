@@ -7,7 +7,9 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int m = 1UL << (sizeof(unsigned long int) * 8 - 1);
+	unsigned long int m;
+
+	m = 1UL << (sizeof(unsigned long int) * 8 - 1);
 
 	int bit;
 
@@ -16,6 +18,5 @@ void print_binary(unsigned long int n)
 		bit = (n & m) ? 1 : 0;
 		_putchar(bit + '0');
 		m >>= 1;
-		_putchar('\n');
 	}
 }
